@@ -1,6 +1,7 @@
 import axios from 'axios'
 
-const URL = 'http://localhost:8000';
+// const URL = 'http://localhost:8000';
+const URL = 'https://crud-test-server.vercel.app';
 
 
 export const addUser = async (data) => {
